@@ -5,7 +5,7 @@ import pandas as pd
 
 
 t0, t_end = 0, 1
-x0 = -0.5  # Начальное условие
+x0 = 0.5  # Начальное условие
 h = 0.001  # Шаг дискретизации
 t_values = np.arange(t0, t_end + h, h)
 
